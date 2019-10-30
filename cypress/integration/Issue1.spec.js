@@ -7,3 +7,7 @@ describe('Issue 1: Agrega al listado principal de personas el campo “Direcció
         cy.get('thead > tr > :nth-child(3)').contains('Dirección')
     })
 })
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    return false
+})
