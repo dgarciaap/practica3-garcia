@@ -1,3 +1,4 @@
+//Issue 2
 describe('Issue 2: Agrega el campo teléfono en la tabla datos después del campo dirección y que funcione en todas las interfaces del sistema.', function() {
 	it('Visitar sitio', function() {
         cy.visit('http://educ.ddns.net:88/pruebas-cypress/')
