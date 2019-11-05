@@ -1,3 +1,4 @@
+//Issue 3
 describe ('Issue 3: No permite eliminar registros de personas', function () {
     it('Visitar sitio”', function () {
         cy.visit('http://educ.ddns.net:88/pruebas-cypress/')
